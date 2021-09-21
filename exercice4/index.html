@@ -51,9 +51,9 @@
                 <div class="col-6 ps-4"> 
                 <p class="fs-1">Hi, My name is!</p>
                 </div>
-                <div class="col-3 my-5 me-5">
+                <div class="col-3 mb-5 me-5">
                     <figure class="figure d-flex flex-column align-items-center">
-                        <img src="img/eminem.jpg" class="figure-img rounded-circle" alt="Slim Shady" style="width:100%">
+                        <img src="img/eminem.jpg" class="figure-img rounded-circle" alt="Slim Shady" style="width:120%">
                         <figcaption class="figure-caption text-dark fs-3 fw-bold">Slim Shady</figcaption>
                     </figure> 
                 </div>
@@ -61,11 +61,36 @@
         </div> 
 
         <!--Bonus 3-->
-        <div class="d-flex justify-content-center mt-5">
-        <a class="btn btn-primary btn-lg style="width:30%" href="#" role="button">Sign up newsletter</a>
-        </div>
 
-        <!--Bloc texte-->
+    <!-- Button trigger modal -->
+    <div class="d-flex justify-content-center mt-4">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Sign up newsletter
+    </button>
+    </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Email</span>
+                <input type="text" class="form-control" placeholder="ex:lala@land.com" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+        </div>
+        <div class="d-flex justify-content-start ms-3 mb-3">
+          <button type="button" class="btn btn-primary">S'abonner</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!--Blocs texte-->
         <div class="row justify-content-between mt-5">
             <div class="col-4 pe-4"> 
                 <div>
