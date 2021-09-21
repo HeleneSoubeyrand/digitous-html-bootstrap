@@ -20,8 +20,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                <!--Bonus 1-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#">Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -31,36 +32,43 @@
         </div>  
     </header>
 
-    <div class="container justify-content-center" style="width:80%">
+    <div class="container" style="width:80%">
+
+        <!--Bonus 2-->
+        <div class="alert alert-danger" role="alert">
+            Une erreur serveur est survenue. Veuillez rafraîchir la page ou rééssayer plus tard.
+        </div>
 
         <!--My name is-->
-        <div class="row justify-content-between" style="background-color: #d4d3d3;"> 
-            <div class="col-sm-4">
-                <p class="fs-1 mt-5 ms-2">Hi, My name is!</p>
-            </div> 
-            <div class="col-sm-3 my-5">
-                <figure classe="figure">
-                    <img src="img/eminem.jpg" class="figure-img rounded-circle" alt="Slim Shady" style="width:80%">
-                    <figcaption class="figure-caption text-start ps-3 fs-4 text-dark fw-bold">Slim Shady</figcaption>
-                </figure> 
+        <div class=" d-flex justify-content-between" style="background-color: #e6ecec;"> 
+            <div class="row justify-content-between mt-5">
+                <div class="col-6 ps-4"> 
+                <p class="fs-1">Hi, My name is!</p>
+                </div>
+                <div class="col-3 my-5 me-5">
+                    <figure class="figure d-flex flex-column align-items-center">
+                        <img src="img/eminem.jpg" class="figure-img rounded-circle" alt="Slim Shady" style="width:100%">
+                        <figcaption class="figure-caption text-dark fs-3 fw-bold">Slim Shady</figcaption>
+                    </figure> 
+                </div>
             </div>
         </div> 
     
         <!--Bloc texte-->
         <div class="row justify-content-between mt-5">
-            <div class="col-sm-4 pe-4"> 
+            <div class="col-4 pe-4"> 
                 <div>
                 <p class="fs-4 fw-bold lh-1">Planification</p>
                 <p class="fs-6">Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa.</p>
                 </div>
             </div>
-            <div class="col-sm-4 pe-4">
+            <div class="col-4 pe-4">
                 <div>
                     <p class="fs-4 fw-bold lh-1">Action</p>
                     <p class="fs-6">Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa.</p>
                 </div> 
             </div>
-            <div class="col-sm-4"> 
+            <div class="col-4"> 
                 <div>
                     <p class="fs-4 fw-bold lh-1">Analysis</p>
                     <p class="fs-6">Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa.</p>
